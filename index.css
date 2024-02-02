@@ -1,0 +1,288 @@
+/* CSS File */
+
+/* Header Section CSS Start */
+
+header
+{
+	background:linear-gradient(to right, #99ebff,#1ad1ff, #99ebff,#1ad1ff, #99ebff);
+	width:99%;
+	height:50px;
+	position: fixed;
+	z-index:1;
+	margin-top: -9px;
+	height: 70px;
+}
+header .menu
+{
+	padding:10px;
+	margin:0px;
+}
+.menu li 
+{
+	display: inline-block;
+	margin-top: 10px;
+
+	
+}
+.menu li a 
+{
+	font-size:25px;
+	color:rgb(0, 100, 130);
+	text-decoration: none;
+	padding-left:50px;
+	font-weight: bold;
+	
+}
+.input
+{
+		position:relative;
+		left:30px;
+		height:30px;
+		width:250px;
+		border: 2px,solid #007a99;
+		border-radius:6px;
+		color:#007a99;	
+		background:#d6f5f5;	
+		border: 2px solid black;
+}
+.fa-magnifying-glass
+{
+    
+	position:relative;
+	top:6px;
+	color:#007a99;
+	
+}
+.fa-house
+{
+  color:rgb(63, 63, 63);
+  margin-right: 10px;
+
+}
+.fa-bars
+{
+	color:rgb(63, 63, 63);
+	margin-right: 10px;
+}
+.fa-globe
+{
+	color:rgb(63, 63, 63);
+	margin-right: 10px;
+}
+.fa-image
+{
+	color:rgb(63, 63, 63);
+	margin-right: 10px;
+}
+.fa-phone
+{
+	color:rgb(63, 63, 63);
+	margin-right: 10px;
+}
+
+/* Banner Section CSS Start */
+.banner-content
+{
+	margin-top:-300px;
+	width:%;
+}
+
+.heading1
+{
+	Color:#005266;
+	font-family:Chiller;
+	font-size:180px;
+	margin-top:-570px; 
+	letter-spacing:20px;
+	padding-left:50px;
+}
+.content
+{
+	Color:#005266;
+	font-family:Chiller;
+	font-size:40px;
+	margin-top:-100px; 
+	margin-left:50px;
+}
+
+/* About Section CSS Start */
+.about
+{
+	margin-top:150px;
+	background:radial-gradient(white, #47d1d1,#85e0e0,#85e0e0,#d6f5f5,#85e0e0, #47d1d1);
+	height:500px;
+}
+.heading2
+{
+	word-spacing:10px;
+	padding-top:25px;
+	font-size:50px;
+	text-shadow:4px 5px  5px #248f8f;
+	color:#022f2f;
+	text-decoration: underline;
+}
+.about-content
+{
+	font-size: 17px;
+	margin-left:200px;
+	margin-right:200px;
+	font-family:Comic Sans MS;
+	color:#093b3b;
+
+}
+
+/* Classes Card Section CSS Start */
+.cards
+{
+	background:#d6f5f5;
+	margin-top:-40px;
+}
+.cards div
+{
+	text-align:center;
+	width:23%;
+	display:inline-block;
+	margin:40px;
+	background:radial-gradient(white, #47d1d1,#85e0e0,#85e0e0,#d6f5f5,#85e0e0, #47d1d1);
+
+	
+}
+.card
+{
+	box-shadow: 2px 5px 15px black;
+	cursor:pointer;
+	height:400px;	
+
+}
+.img 
+{
+	height:200px;
+	width:270px;
+	margin-top:20px;
+}
+.cards p
+{
+		font-family:calibri;
+		padding-left:30px;
+		font-size:20px;
+		text-align: left;
+}
+
+.card:hover
+{
+		transform: scale(1.1,1.1);
+}
+.card button
+{
+	height:40px;
+	width:120px;
+	border-radius:20px;
+	background: #0c5252;
+	border:none;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.card button:hover
+{
+	color:white;
+	font-weight: bold;
+	background: #4843d8;
+	
+}
+/* Gallary CSS Start */
+.gallary
+{
+	 background-color: rgb(236, 213, 224);
+	margin-top:-40px;
+}
+td img
+{
+		height:150px;
+		width: 200px;
+		opacity:0.8;
+		border:3px solid black;
+		border-radius: 140px;
+		height: 200px;
+}
+td img:hover
+{
+	opacity:1;
+	cursor:crosshair;
+	transform:scale(1.2,1.2);
+	transition:ease-in-out 2s;
+}
+/* Footer CSS Start */
+.footer 
+{
+	background:#d6f5f5;
+	margin-top:-40px;
+}
+
+.input1
+{
+	background:#4ddbff;
+	border:2px solid #4ddbff;
+	width:500px;
+}
+
+table th 
+{
+	color:#005266;
+	text-align: left;
+}
+.button
+{
+	height:40px;
+	width:130px;
+	background:#005266;
+	color:white;
+	border-radius: 20px;
+	border: 2px solid black;
+	border: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+.button:hover
+{
+	background:#99ebff;
+	color:black;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+/* icon section css */
+ hr
+{
+  border-top-color:#bbb;
+  opacity:0.5;
+  color:#01151a;
+
+}
+
+#icon
+{
+	text-align: center;
+
+}
+
+#icon i
+{
+	font-size:35px;
+	padding: 10px 10px;
+	color:#005266;
+}
+.fa-square-instagram:hover{
+	color:pink;
+}
+.fa-facebook:hover{
+	color:blue;
+}
+.fa-linkedin:hover{
+	color:blue;
+}
+.fa-square-whatsapp:hover{
+	color:green;
+}
+.fa-square-snapchat:hover{
+	color:yellow;
+}
